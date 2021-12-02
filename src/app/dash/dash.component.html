@@ -1,0 +1,71 @@
+
+<div class="cont">
+
+
+<div class="des container-fluid d-flex flex-column">
+    <div style="height: 40%;" >
+    <div class="btnsetts d-flex justify-content-between align-items-center" >
+        
+        <div class="redds" (click)=' operPlay( 1, 2 ) '>
+           -
+        </div>
+        <div class="bola" id="cola" [ngStyle]="{'background-color': _colorA}" (click)="bolearx(1)">
+
+        </div>
+        <div class="adds" (click)=' operPlay( 1, 1 ) ' >
+            <mat-icon>add</mat-icon>
+        </div>
+        
+
+    </div>
+    <div id="d1" class="divisor container-fluid d-flex justify-content-center align-items-center" [ngStyle]="{'background-color': _color_asign_a}">
+        
+        <div class="n1"  >
+            <p>
+            {{ _n1 }}
+            </p>
+        </div>
+    </div>
+    </div>
+
+
+    <div style="height: 40%; margin-top: 55px;" >
+        
+        <div id="d2" class="divisor container-fluid d-flex justify-content-center align-items-center" [ngStyle]="{'background-color': _color_asign_b}">
+            
+            <div class="n2"  >
+                <p>
+                    {{ _n2 }}
+                </p>
+            </div>
+        </div>
+        <div class="btnsettss d-flex justify-content-between align-items-center" >
+    
+            <div class="redds" (click)=' operPlay( 1, 4 ) '>
+               -
+            </div>
+            <div class="bola" id="colb" [ngStyle]="{'background-color': _colorB}" (click)="bolearx(2)">
+
+            </div>
+            <div class="adds" (click)=' operPlay( 1, 3 ) '>
+                <mat-icon>add</mat-icon>
+            </div>
+    
+        </div>
+        </div>
+
+    <!-- <div id="d2" class="divisor container-fluid d-flex justify-content-center align-items-center " [ngStyle]="{'background-color': _color_asign_b}" >
+        <div class="n2" >
+            {{ _n2 }}
+        </div>
+    </div> -->
+
+</div>
+
+
+
+</div>
+
+
+
+
